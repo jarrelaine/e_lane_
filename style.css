@@ -150,7 +150,7 @@ nav input[type='checkbox']:checked ~ .menu-items {
 .bg-image {
   position: relative;
   height: 100vh;
-  background-image: url('/content/hero-img.jpg');
+  background-image: url('content/hero-img.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
