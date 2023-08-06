@@ -196,12 +196,11 @@ nav input[type='checkbox']:checked ~ .menu-items {
 }
 
 /* BUTTONS */
-.hero-content .button {
+.button {
   display: inline-block;
 }
-.hero-content .button a {
+.button a {
   display: inline-block;
-  margin: 10px;
   padding: 10px 20px;
   background-color: #eeeeee;
   color: #222831;
@@ -211,13 +210,16 @@ nav input[type='checkbox']:checked ~ .menu-items {
   font-weight: bold;
   transition: background-color 0.3s ease;
 }
-.hero-content .button.cta a {
+.button.cta a {
   background-color: #32e0c4;
   color: #222831;
 }
-.hero-content .button a:hover {
+.button a:hover {
   background-color: #dd32e0;
   color: #eeeeee;
+}
+.hero-content .button {
+  margin: 5%;
 }
 /* Audio Player */
 .audio-player {
@@ -288,6 +290,7 @@ nav input[type='checkbox']:checked ~ .menu-items {
   border-top: 2px dashed #393e46;
   width: 75%;
 }
+
 .follow {
   color: #222831;
   text-decoration: none;
@@ -326,6 +329,10 @@ nav input[type='checkbox']:checked ~ .menu-items {
   .container {
     box-sizing: border-box;
     padding: 70px 24px;
+  }
+  .instagram {
+    flex-wrap: wrap-reverse;
+    margin-top: 20px;
   }
 }
 
