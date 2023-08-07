@@ -174,7 +174,7 @@ nav input[type='checkbox']:checked ~ .menu-items {
   transform: translate(-50%, -50%);
   text-align: center;
   color: #eeeeee;
-  min-width: 80%;
+  min-width: 85%;
 }
 .hero-content h1 {
   font-size: 32px;
@@ -202,7 +202,7 @@ nav input[type='checkbox']:checked ~ .menu-items {
 }
 .button a {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 15px 30px;
   background-color: #eeeeee;
   color: #222831;
   text-decoration: none;
