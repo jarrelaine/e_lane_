@@ -39,12 +39,24 @@ nav ul li a:active {
   position: absolute;
   z-index: 99;
   padding: 24px;
-  color: #32e0c4;
+  color: #222831;
   font-family: 'Montserrat Subrayada', sans-serif;
   font-weight: 400;
   font-size: 2rem;
   text-decoration: none;
   text-transform: uppercase;
+}
+.navbar-brand:hover {
+  color: #32e0c4;
+}
+.navbar-brand.light {
+  color: #32e0c4;
+}
+
+@media (min-width: 850px) {
+  .navbar-brand {
+    color: #32e0c4;
+  }
 }
 
 /* MENU ITEMS STYLING*/
@@ -174,25 +186,43 @@ nav input[type='checkbox']:checked ~ .menu-items {
   transform: translate(-50%, -50%);
   text-align: center;
   color: #eeeeee;
-  min-width: 85%;
+  min-width: 80%;
 }
 .hero-content h1 {
-  font-size: 32px;
-  margin-bottom: 20px;
+  font-size: 1.2rem;
+  line-height: 1.5em;
+  margin-top: 5rem;
 }
 .hero-content p {
-  margin-bottom: 30px;
+  margin-bottom: 3.5rem;
 }
 
-/* Media Queries for desktop size */
-@media (min-width: 768px) {
+/* Media Queries for mobil size */
+@media (min-width: 376px) {
   .hero-content h1 {
-    font-size: 3em;
-    margin: 20% 0 5%;
+    font-size: 1.8rem;
+  }
+  .hero-content p {
+    font-size: 1.2rem;
+  }
+}
+/* Media Queries for tablet size */
+@media (min-width: 765px) {
+  .hero-content h1 {
+    font-size: 2.3rem;
+    margin-top: 15rem;
+  }
+  .hero-content p {
+    font-size: 1.8rem;
+  }
+}
+/* Media Queries for desktop size */
+@media (min-width: 1200px) {
+  .hero-content h1 {
+    font-size: 3rem;
   }
   .hero-content p {
     font-size: 1.5rem;
-    margin-bottom: 3rem;
   }
 }
 
@@ -275,17 +305,12 @@ nav input[type='checkbox']:checked ~ .menu-items {
 /* ABOUT */
 .container {
   display: flex;
-  background-color: #eeeeee;
   box-sizing: border-box;
   padding: 50px 32px;
   width: 100vw;
 }
 .item {
-  margin-top: 5%;
-}
-.myvideo {
-  display: flex;
-  margin-left: auto;
+  margin-top: 10%;
 }
 .linebreak {
   border-top: 2px dashed #393e46;
@@ -317,7 +342,7 @@ nav input[type='checkbox']:checked ~ .menu-items {
   }
 }
 /* for tablet */
-@media (max-width: 950px) {
+@media (max-width: 850px) {
   .container {
     display: flex;
     justify-content: center;
@@ -331,15 +356,11 @@ nav input[type='checkbox']:checked ~ .menu-items {
     box-sizing: border-box;
     padding: 70px 24px;
   }
-  .instagram {
-    flex-wrap: wrap-reverse;
-    margin-top: 20px;
-  }
 }
 
 /* INSTAGRAM POST SECTION */
 /* for smartphone */
-@media (max-width: 950px) {
+@media (max-width: 850px) {
   .video-text {
     text-align: center;
   }
@@ -347,7 +368,7 @@ nav input[type='checkbox']:checked ~ .menu-items {
 /* for tablet */
 @media (min-width: 850px) {
   .thumbnail {
-    padding-left: 50px;
+    padding-right: 50px;
   }
 }
 /* for desktop */
@@ -367,14 +388,32 @@ nav input[type='checkbox']:checked ~ .menu-items {
   flex-direction: column;
   width: 100vw;
 }
+
+/* CTA SECTION - ABOUT */
+.cta-about {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0;
+}
 @media (max-width: 850px) {
-  .item-cta-player {
+  .cta-about {
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
   }
 }
 
 /* CONTACT */
+.disco {
+  background-color: #ffffff;
+  background-image: url('content/dico-glitter_pexels-harry-cooke-6194937_psd-edit.jpg');
+  background-size: cover;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .contact {
   display: flex;
   justify-content: center;
@@ -391,9 +430,8 @@ nav input[type='checkbox']:checked ~ .menu-items {
   flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
-  padding: 50px;
-  margin: 20px 0;
-  border-radius: 50px;
+  padding: 3rem;
+  border-radius: 100px;
 }
 .form-bg {
   min-width: 250px;
@@ -471,4 +509,12 @@ nav input[type='checkbox']:checked ~ .menu-items {
 .contact-headline {
   text-align: center;
   padding: 2%;
+}
+
+/* IMPRESSUM */
+.impress {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 2rem 5rem;
 }
