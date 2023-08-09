@@ -194,10 +194,12 @@ nav input[type='checkbox']:checked ~ .menu-items {
 .hero-content h1 {
   font-size: 1.2rem;
   line-height: 1.5em;
+  text-shadow: 1px 1px 2px black;
   margin-top: 5rem;
 }
 .hero-content p {
   margin-bottom: 3.5rem;
+  text-shadow: 1px 1px 2px black;
 }
 
 /* Media Queries for mobil size */
@@ -236,6 +238,7 @@ nav input[type='checkbox']:checked ~ .menu-items {
 .button a {
   display: inline-block;
   padding: 15px 30px;
+  margin: 5% 0;
   background-color: #eeeeee;
   color: #222831;
   text-decoration: none;
@@ -243,6 +246,13 @@ nav input[type='checkbox']:checked ~ .menu-items {
   border-radius: 40px;
   font-weight: bold;
   transition: background-color 0.3s ease;
+}
+.button.outline a {
+  color: #222831;
+  border: 3px solid #32e0c4;
+}
+.button.outline a:hover {
+  background-color: #32e0c4;
 }
 .button.cta a {
   background-color: #32e0c4;
@@ -281,6 +291,10 @@ nav input[type='checkbox']:checked ~ .menu-items {
 .footer a:hover {
   text-decoration: underline 3px #32e0c4;
 }
+.fa-brands {
+  margin-right: 10px;
+}
+
 .icon:hover {
   color: #32e0c4;
 }
@@ -322,12 +336,7 @@ nav input[type='checkbox']:checked ~ .menu-items {
 
 .follow {
   color: #222831;
-  text-decoration: none;
   text-transform: uppercase;
-  padding: 5% 0;
-}
-.follow:hover {
-  text-decoration: underline 3px #32e0c4;
 }
 
 /* MEDIA QUERIES - ABOUT - GENERAL */
