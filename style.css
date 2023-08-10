@@ -11,6 +11,7 @@ body {
 }
 h1 {
   font-family: 'Montserrat Subrayada', sans-serif;
+  text-shadow: 1px 1px 2px #eeeeee;
 }
 header {
   background-color: #393e46;
@@ -194,12 +195,12 @@ nav input[type='checkbox']:checked ~ .menu-items {
 .hero-content h1 {
   font-size: 1.2rem;
   line-height: 1.5em;
-  text-shadow: 1px 1px 2px black;
   margin-top: 5rem;
+  text-shadow: 1px 1px 2px #222831;
 }
-.hero-content p {
+.sub-headline {
   margin-bottom: 3.5rem;
-  text-shadow: 1px 1px 2px black;
+  text-shadow: 1px 1px 2px #222831;
 }
 
 /* Media Queries for mobil size */
@@ -207,7 +208,7 @@ nav input[type='checkbox']:checked ~ .menu-items {
   .hero-content h1 {
     font-size: 1.8rem;
   }
-  .hero-content p {
+  .sub-headline {
     font-size: 1.2rem;
   }
 }
@@ -217,7 +218,7 @@ nav input[type='checkbox']:checked ~ .menu-items {
     font-size: 2.3rem;
     margin-top: 15rem;
   }
-  .hero-content p {
+  .sub-headline {
     font-size: 1.8rem;
   }
 }
@@ -226,7 +227,7 @@ nav input[type='checkbox']:checked ~ .menu-items {
   .hero-content h1 {
     font-size: 3rem;
   }
-  .hero-content p {
+  .sub-headline {
     font-size: 1.5rem;
   }
 }
@@ -292,7 +293,7 @@ nav input[type='checkbox']:checked ~ .menu-items {
   text-decoration: underline 3px #32e0c4;
 }
 .fa-brands {
-  margin-right: 10px;
+  margin-left: 10px;
 }
 
 .icon:hover {
@@ -333,7 +334,6 @@ nav input[type='checkbox']:checked ~ .menu-items {
   border-top: 2px dashed #393e46;
   width: 75%;
 }
-
 .follow {
   color: #222831;
   text-transform: uppercase;
@@ -436,7 +436,7 @@ nav input[type='checkbox']:checked ~ .menu-items {
   padding: 1rem;
 }
 .form-position {
-  background-color: #222831;
+  background-color: rgb(34 40 49 / 80%);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -444,6 +444,7 @@ nav input[type='checkbox']:checked ~ .menu-items {
   align-items: center;
   padding: 3rem;
   border-radius: 100px;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
 }
 .form-bg {
   min-width: 250px;
@@ -453,7 +454,6 @@ nav input[type='checkbox']:checked ~ .menu-items {
 .form {
   display: flex;
   flex-direction: column;
-  box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
   border-radius: 50px;
   overflow: hidden;
   min-width: 250px;
