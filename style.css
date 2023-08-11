@@ -178,11 +178,10 @@ nav input[type='checkbox']:checked ~ .menu-items {
   flex-direction: column;
   text-align: center;
   color: #eeeeee;
-  padding-bottom: 2rem;
+  padding: 2rem 0;
 }
 
 .hero-content h1 {
-  padding-top: 2em;
   line-height: 1.5em;
   text-shadow: 1px 1px 2px #222831;
 }
