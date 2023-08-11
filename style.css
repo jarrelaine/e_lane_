@@ -183,7 +183,8 @@ nav input[type='checkbox']:checked ~ .menu-items {
 }
 
 .hero-content h1 {
-  font-size: 1.2rem;
+  padding-top: 2em;
+  font-size: 1.5rem;
   line-height: 1.5em;
   text-shadow: 1px 1px 2px #222831;
 }
@@ -193,11 +194,8 @@ nav input[type='checkbox']:checked ~ .menu-items {
 }
 
 /* Media Queries for mobil size */
-@media (min-width: 390px) {
+@media (max-width: 370px) {
   .hero-content h1 {
-    font-size: 1.5rem;
-  }
-  .sub-headline {
     font-size: 1.2rem;
   }
 }
