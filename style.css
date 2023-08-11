@@ -235,7 +235,9 @@ nav input[type='checkbox']:checked ~ .menu-items {
 /* BUTTONS */
 .button {
   display: inline-block;
+  margin: 3.5%;
 }
+
 .button a {
   display: inline-block;
   padding: 15px 30px;
@@ -262,12 +264,7 @@ nav input[type='checkbox']:checked ~ .menu-items {
   background-color: #dd32e0;
   color: #eeeeee;
 }
-.hero-buttons {
-}
 
-.hero-content .button {
-  margin: 3.5%;
-}
 /* Audio Player */
 .audio-player {
   box-sizing: border-box;
