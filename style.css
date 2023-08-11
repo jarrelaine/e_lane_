@@ -178,7 +178,7 @@ nav input[type='checkbox']:checked ~ .menu-items {
   flex-direction: column;
   text-align: center;
   color: #eeeeee;
-  padding: 2rem 0;
+  margin: auto 0;
 }
 
 .hero-content h1 {
@@ -191,7 +191,7 @@ nav input[type='checkbox']:checked ~ .menu-items {
 }
 
 /* Media Queries for mobil size */
-@media (max-width: 370px) {
+@media (max-width: 376px) {
   .hero-content h1 {
     font-size: 1.5rem;
   }
