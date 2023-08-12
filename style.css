@@ -303,12 +303,6 @@ nav input[type='checkbox']:checked ~ .menu-items {
 .icon:hover {
   color: #32e0c4;
 }
-.datenschutz {
-  display: none;
-}
-.impressum {
-  display: none;
-}
 
 /* MEDIA QUERIES  */
 /* for smartphone size */
