@@ -269,7 +269,14 @@ nav input[type='checkbox']:checked ~ .menu-items {
 .hero-buttons .button {
   margin: 3.5%;
 }
-
+@media (max-width: 300px) {
+  .hero-buttons .button a {
+    padding: 12px 25px;
+  }
+  .hero-content h1 {
+    line-height: 1.3em;
+  }
+}
 /* Audio Player */
 .audio-player {
   box-sizing: border-box;
@@ -306,7 +313,7 @@ nav input[type='checkbox']:checked ~ .menu-items {
 
 /* MEDIA QUERIES  */
 /* for smartphone size */
-@media (max-width: 550px) {
+@media (max-width: 650px) {
   .footer {
     flex-direction: column;
   }
