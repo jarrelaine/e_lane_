@@ -159,19 +159,22 @@ nav input[type='checkbox']:checked ~ .menu-items {
 }
 
 /* HERO SECTION */
-.hero {
-  display: flex;
-}
 .bg-image {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: #222831;
-  background-image: url('content/hero-img.jpg');
+  background-image: url('content/hero-img_dj-e_lane-at-gängeviertel_hamburg.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  height: 100vh;
+  height: 95vh;
+}
+.blur {
+  background: rgba(0, 0, 0, 0.3);
+  backdrop-filter: blur(1.5px);
+  height: 95vh;
+  width: 100vw;
 }
 .hero-content {
   display: flex;
@@ -235,9 +238,8 @@ nav input[type='checkbox']:checked ~ .menu-items {
 /* BUTTONS */
 .button {
   display: inline-block;
-  margin: 3.5%;
+  margin: 3.5% 0;
 }
-
 .button a {
   display: inline-block;
   padding: 15px 30px;
@@ -263,6 +265,9 @@ nav input[type='checkbox']:checked ~ .menu-items {
 .button a:hover {
   background-color: #dd32e0;
   color: #eeeeee;
+}
+.hero-buttons .button {
+  margin: 3.5%;
 }
 
 /* Audio Player */
@@ -297,6 +302,12 @@ nav input[type='checkbox']:checked ~ .menu-items {
 
 .icon:hover {
   color: #32e0c4;
+}
+.datenschutz {
+  display: none;
+}
+.impressum {
+  display: none;
 }
 
 /* MEDIA QUERIES  */
@@ -529,10 +540,4 @@ nav input[type='checkbox']:checked ~ .menu-items {
   flex-wrap: wrap;
   flex-direction: column;
   padding: 2rem 5rem;
-}
-.blur {
-  background: rgba(0, 0, 0, 0.3);
-  backdrop-filter: blur(1.5px);
-  height: 100vh;
-  width: 100vw;
 }
