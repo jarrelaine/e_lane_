@@ -3,30 +3,35 @@
   font-weight: 400;
   src: url('assets/fonts/roboto-regular-webfont.woff2');
   src: url('assets/fonts/roboto-regular-webfont.woff');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Roboto';
   font-weight: 500;
   src: url('assets/fonts/roboto-medium-webfont.woff2');
   src: url('assets/fonts/roboto-medium-webfont.woff');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Roboto';
   font-weight: 700;
   src: url('assets/fonts/roboto-bold-webfont.woff2');
   src: url('assets/fonts/roboto-bold-webfont.woff');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Montserrat Subrayada';
   font-weight: 400;
   src: url('assets/fonts/montserratsubrayada-regular-webfont.woff2');
   src: url('assets/fonts/montserratsubrayada-regular-webfont.woff');
+  font-display: swap;
 }
 @font-face {
   font-family: 'Montserrat Subrayada';
   font-weight: 700;
   src: url('assets/fonts/montserratsubrayada-bold-webfont.woff2');
   src: url('assets/fonts/montserratsubrayada-bold-webfont.woff');
+  font-display: swap;
 }
 
 /* TAG SELECTORS */
@@ -445,7 +450,7 @@ nav input[type='checkbox']:checked ~ .menu-items {
   padding-bottom: 2rem;
 }
 .form-picture {
-  width: 20em;
+  width: 20rem;
   min-width: 200px;
   border-radius: 100%;
   padding: 1rem;
