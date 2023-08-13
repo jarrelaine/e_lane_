@@ -150,7 +150,7 @@ nav input[type='checkbox']:checked ~ .menu-items {
   justify-content: center;
   align-items: center;
   background-color: #222831;
-  background-image: url('content/hero-img_dj-e_lane-at-gängeviertel_hamburg.jpg');
+  background-image: url('content/hero-img_dj-e_lane-at-gängeviertel_hamburg.webp');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -405,7 +405,7 @@ nav input[type='checkbox']:checked ~ .menu-items {
 /* CONTACT */
 .disco {
   background-color: #ffffff;
-  background-image: url('content/dico-glitter_pexels-harry-cooke-6194937_psd-edit.jpg');
+  background-image: url('content/dico-glitter_pexels-harry-cooke-6194937_psd-edit.webp');
   background-size: cover;
   padding-top: 2rem;
   padding-bottom: 2rem;
