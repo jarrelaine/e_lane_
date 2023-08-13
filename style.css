@@ -449,6 +449,7 @@ nav input[type='checkbox']:checked ~ .menu-items {
   text-transform: uppercase;
   letter-spacing: 1.2px;
   border: none;
+  color: #222831;
   background-color: #32e0c4;
   padding: 1.25em 2em;
 }
