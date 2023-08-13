@@ -264,6 +264,9 @@ nav input[type='checkbox']:checked ~ .menu-items {
   box-sizing: border-box;
   border: 5px solid #393e46;
 }
+.player-text {
+  visibility: hidden;
+}
 
 /* FOOTER */
 .footer {
@@ -411,7 +414,8 @@ nav input[type='checkbox']:checked ~ .menu-items {
   padding-bottom: 2rem;
 }
 .form-picture {
-  width: 15em;
+  width: 20em;
+  min-width: 200px;
   border-radius: 100%;
   padding: 1rem;
 }
