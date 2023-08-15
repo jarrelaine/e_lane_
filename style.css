@@ -414,9 +414,6 @@ nav input[type='checkbox']:checked ~ .menu-items {
 }
 /* for desktop */
 @media (min-width: 1280px) {
-  .item .video-text {
-    width: 70%;
-  }
   .item .thumbnail {
     width: 30%;
   }
