@@ -494,10 +494,11 @@ nav input[type='checkbox']:checked ~ .menu-items {
   color: #222831;
   background-color: #32e0c4;
   padding: 1.25em 2em;
+  cursor: pointer;
 }
 .form-input {
-  font-size: 1.1em;
-  padding: 1.5em;
+  font-size: 1.1rem;
+  padding: 1.5rem;
   outline: none;
   border: none;
 }
