@@ -152,7 +152,7 @@ header a:hover {
   }
   .navbar-brand {
     margin-top: 12px;
-    margin-left: 142px;
+    margin-left: 144px;
   }
   nav .menu-items {
     left: 0;
@@ -162,7 +162,7 @@ header a:hover {
     display: flex;
     flex-direction: row;
     align-items: start;
-    margin-right: 142px;
+    margin-right: 144px;
     margin-top: 12px;
   }
   nav .menu-items ul li a {
@@ -451,6 +451,11 @@ nav input[type='checkbox']:checked ~ .menu-items {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
+.disco h1 {
+  text-align: center;
+  text-shadow: 1px 1px 2px #eeeeee;
+  padding: 2%;
+}
 .form-picture {
   width: 15rem;
   min-width: 200px;
@@ -458,7 +463,7 @@ nav input[type='checkbox']:checked ~ .menu-items {
   padding: 1rem;
 }
 .form-position {
-  background-color: rgb(34 40 49 / 80%);
+  background-color: rgb(34 40 49 / 65%);
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -466,14 +471,41 @@ nav input[type='checkbox']:checked ~ .menu-items {
   align-items: center;
   padding: 3rem;
   border-radius: 100px;
-  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.35);
 }
 .form-bg {
   min-width: 250px;
   width: 80vw;
   height: auto;
 }
+.form-subheadline {
+  font-family: 'Montserrat Subrayada', sans-serif;
+  font-size: 1.7rem;
+}
 .form {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+}
+.form-text {
+  color: #eeeeee;
+  font-size: 1.2rem;
+  line-height: 3.2rem;
+}
+@media (max-width: 1350px) {
+  .form-position {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .form-text {
+    text-align: center;
+  }
+  .form {
+    align-items: center;
+  }
+}
+/* CONTACT FORM */
+form {
   display: flex;
   flex-direction: column;
   border-radius: 50px;
@@ -519,7 +551,6 @@ nav input[type='checkbox']:checked ~ .menu-items {
   bottom: 0;
   background: rgba(0, 0, 0, 0.1);
 }
-
 #message {
   border: none;
   outline: none;
@@ -533,16 +564,15 @@ nav input[type='checkbox']:checked ~ .menu-items {
 #message:focus::placeholder {
   opacity: 0.85;
 }
-.disco h1 {
-  text-align: center;
-  text-shadow: 1px 1px 2px #eeeeee;
-  padding: 2%;
-}
 
 /* IMPRESSUM */
-.impress {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  padding: 2rem 5rem;
+.container-legal {
+  padding: 80px 32px 32px;
+}
+
+@media (min-width: 850px) {
+  .container-legal {
+    margin: 0 auto;
+    max-width: 1280px;
+  }
 }
