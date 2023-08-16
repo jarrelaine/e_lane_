@@ -363,9 +363,6 @@ nav input[type='checkbox']:checked ~ .menu-items {
   display: flex;
   justify-content: center;
 }
-.item {
-  margin-top: 10%;
-}
 .linebreak {
   border-top: 2px dashed #393e46;
   width: 75%;
@@ -389,6 +386,10 @@ nav input[type='checkbox']:checked ~ .menu-items {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+  }
+  .item {
+    margin-top: 2rem;
+    text-align: center;
   }
 }
 /* for smartphone */
@@ -466,7 +467,6 @@ nav input[type='checkbox']:checked ~ .menu-items {
   background-color: rgb(34 40 49 / 65%);
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-around;
   align-items: center;
   padding: 3rem;
@@ -478,14 +478,19 @@ nav input[type='checkbox']:checked ~ .menu-items {
   width: 80vw;
   height: auto;
 }
+.form-headline {
+  font-size: 2.3rem;
+}
 .form-subheadline {
-  font-family: 'Montserrat Subrayada', sans-serif;
-  font-size: 1.7rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 .form {
   display: flex;
   flex-direction: column;
-  max-width: 600px;
+  max-width: 750px;
+  padding: 0 1rem;
 }
 .form-text {
   color: #eeeeee;
