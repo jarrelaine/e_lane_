@@ -509,66 +509,6 @@ nav input[type='checkbox']:checked ~ .menu-items {
     align-items: center;
   }
 }
-/* CONTACT FORM */
-form {
-  display: flex;
-  flex-direction: column;
-  border-radius: 50px;
-  overflow: hidden;
-  min-width: 250px;
-  margin: 1rem;
-}
-.form-item {
-  display: flex;
-  flex-direction: column;
-}
-.form-button {
-  font-size: 1em;
-  font-weight: bold;
-  text-transform: uppercase;
-  letter-spacing: 1.2px;
-  border: none;
-  color: #222831;
-  background-color: #32e0c4;
-  padding: 1.25em 2em;
-  cursor: pointer;
-}
-.form-input {
-  font-size: 1.1rem;
-  padding: 1.5rem;
-  outline: none;
-  border: none;
-}
-.form-input::placeholder {
-  opacity: 0.35;
-}
-.form-input:focus::placeholder {
-  opacity: 0.85;
-}
-.form-item:first-of-type {
-  position: relative;
-}
-.form-item:first-of-type:after {
-  content: '';
-  position: absolute;
-  right: 0;
-  left: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.1);
-}
-#message {
-  border: none;
-  outline: none;
-  font-family: 'Roboto', sans-serif;
-  font-size: 1.1em;
-  padding: 1.5em;
-}
-#message::placeholder {
-  opacity: 0.35;
-}
-#message:focus::placeholder {
-  opacity: 0.85;
-}
 
 /* IMPRESSUM */
 .container-legal {
